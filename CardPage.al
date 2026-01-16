@@ -122,7 +122,7 @@ page 50184 CustomerCardPage
                 PromotedIsBig = true;
                 PromotedOnly = true;
                 Promoted = true;
-                Image = PostDocument;
+                Image = Post;
                 Caption = 'Post';
                 trigger OnAction()
                 Var
@@ -295,4 +295,5 @@ page 50184 CustomerCardPage
             exit(false);
         end;
     end;
+
 }
